@@ -21,6 +21,7 @@ class ContaCorrente:
         if(self.saldo >= valorAplicacao):
             self.saldo -= valorAplicacao
             print("Aplicação realizada com sucesso")
+            return valorAplicacao
             
         else:
             print("Saldo insuficiente")
